@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: shuukatu_production
-  username: shuukatu
-  password: <%= ENV['SHUUKATU_DATABASE_PASSWORD'] %>
+  username: root
+  password: 
